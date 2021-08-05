@@ -25,4 +25,4 @@ jobs:
         with:
           file: gitversion/Dockerfile
           push: false
-          tags: user/app:latest
+          tags: joergzeidler/app:latest
