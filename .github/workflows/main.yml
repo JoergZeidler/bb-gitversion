@@ -24,6 +24,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          context: /home/runner/work/bb-gitversion/gitversion
           file: gitversion/Dockerfile
           tags: joergzeidler/app:latest
