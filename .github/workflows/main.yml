@@ -24,5 +24,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          file: gitversion/Dockerfile
+          context: gitversion
           tags: joergzeidler/app:latest
