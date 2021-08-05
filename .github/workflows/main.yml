@@ -23,7 +23,7 @@ jobs:
         id: docker_build
         uses: docker/build-push-action@v2
         with:
-          context: ./gitversion/
-          file: gitversion/Dockerfile
+          context: gitversion/
+          file: Dockerfile
           push: false
           tags: joergzeidler/app:latest
